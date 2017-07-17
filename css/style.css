@@ -13,6 +13,7 @@ header {
 h1 {
     font-size: 30px;
     margin: 0;
+    color: yellowgreen;
 }
 h2 {
     color: greenyellow;
@@ -21,6 +22,9 @@ h2 {
 h3 {
     font-size: 52px;
     margin: 0;
+}
+h4 {
+    color: black;
 }
 section {
     display: block;
@@ -38,7 +42,6 @@ aside {
     float: left;
     max-width: 30%;
     height: 700px;
-    text-decoration: none;
 }
 article {
     width: 80%;
@@ -48,6 +51,9 @@ span {
     font-style: italic;
     color: black;
 }
+table {
+    width: 70%;
+}
 footer {
     display: block;
     float: left;
@@ -55,7 +61,11 @@ footer {
     height: 100px;
     margin-top: 20px;
     padding-top: 20px;
+    color: black;
     border-top: dotted 4px white;
+}
+ul.a{
+    list-style-type: square;
 }
 .brick {
     display: block;
