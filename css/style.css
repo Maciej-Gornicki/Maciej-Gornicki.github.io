@@ -1,9 +1,11 @@
 body {
-    margin: auto;
     background-color: dimgrey;
-    max-width: 1000px;
     color: white;
     font-family: Helvetica, sans-serif;
+}
+#container {
+    width: 1000px;
+    margin: auto;
 }
 header {
     display: block;
