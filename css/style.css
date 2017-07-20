@@ -1,92 +1,3 @@
-/*body {*/
-    /*background-color: dimgrey;*/
-    /*color: white;*/
-    /*font-family: Helvetica, sans-serif;*/
-/*}*/
-/*#container {*/
-    /*width: 1000px;*/
-    /*margin: auto;*/
-/*}*/
-/*header {*/
-    /*display: block;*/
-    /*height: 300px;*/
-    /*margin-bottom: 60px;*/
-/*}*/
-/*h1 {*/
-    /*font-size: 30px;*/
-    /*margin: 0;*/
-    /*color: yellowgreen;*/
-/*}*/
-/*h2 {*/
-    /*color: greenyellow;*/
-    /*font-style: italic;*/
-/*}*/
-/*h3 {*/
-    /*font-size: 52px;*/
-    /*margin: 0;*/
-/*}*/
-/*h4 {*/
-    /*color: black;*/
-/*}*/
-/*section {*/
-    /*display: block;*/
-    /*float: left;*/
-    /*max-width: 50%;*/
-/*}*/
-/*img {*/
-    /*max-width: 250px;*/
-    /*margin-top: 50px;*/
-    /*border: solid yellowgreen 6px;*/
-    /*border-radius: 7px;*/
-/*}*/
-/*aside {*/
-    /*display: block;*/
-    /*float: left;*/
-    /*max-width: 30%;*/
-    /*height: 700px;*/
-/*}*/
-/*article {*/
-    /*width: 80%;*/
-/*}*/
-/*span {*/
-    /*font-size: 17px;*/
-    /*font-style: italic;*/
-    /*color: black;*/
-/*}*/
-/*table {*/
-    /*width: 70%;*/
-/*}*/
-/*footer {*/
-    /*display: block;*/
-    /*float: left;*/
-    /*width: 100%;*/
-    /*height: 100px;*/
-    /*margin-top: 20px;*/
-    /*padding-top: 20px;*/
-    /*color: black;*/
-    /*border-top: dotted 4px white;*/
-/*}*/
-/*ul.a{*/
-    /*list-style-type: square;*/
-/*}*/
-/*.brick {*/
-    /*display: block;*/
-    /*float: left;*/
-    /*width: 50%;*/
-/*}*/
-/*.rating {*/
-    /*padding-left: 0;*/
-/*}*/
-/*#Top {*/
-    /*display: block;*/
-    /*float: right;*/
-    /*width: 55%;*/
-    /*height: 280px;*/
-    /*margin-bottom: 0;*/
-    /*margin-top: 40px;*/
-    /*margin-right: 90px;*/
-/*}*/
-
 body {
     background-color: dimgrey;
 }
@@ -97,6 +8,7 @@ body {
     color: white;
     font-family: Helvetica, sans-serif;
 }
+
 
 .avatar {
     display: block;
@@ -149,7 +61,7 @@ body {
 .project-links {
     display: block;
     float: left;
-    max-width: 20%;
+    width: 30%;
 }
 
 .project-links__type {
@@ -160,6 +72,18 @@ body {
     color: greenyellow;
     font-style: italic;
     font-size: 24px;
+}
+
+.project-links__email-form {
+    width: 50%;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.project-links__label {
+    margin-top: 10px;
+    color: greenyellow;
+    font-style: italic;
 }
 
 .footer {
@@ -173,4 +97,3 @@ body {
     border-top: dotted 4px white;
     text-align: center;
 }
-
