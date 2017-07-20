@@ -6,6 +6,8 @@ Please install latest preferred web-browser.
 For HR purpose.
 ## History
 Current version is most up to date.
+## Link to my CV
+https://maciej-gornicki.github.io/
 ## Credits
 Thanks to Info Share Academy team.
 ## License
