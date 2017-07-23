@@ -7,8 +7,8 @@ For HR purpose.
 ## History
 Current version is most up to date.
 ## Link to my CV
-https://maciej-gornicki.github.io/
+[My website](https://maciej-gornicki.github.io/)
 ## Credits
-Thanks to Info Share Academy team.
+Thanks to infoShare Academy team.
 ## License
 *not set yet*

@@ -89,6 +89,14 @@ body {
     font-style: italic;
 }
 
+.project-links__button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 19px;
+    border: 1px solid #D5D5D5;
+    background-color: greenyellow;
+}
+
 /*FOOTER********************************************************************************************************/
 
 .footer {
