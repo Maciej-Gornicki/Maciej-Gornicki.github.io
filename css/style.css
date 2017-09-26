@@ -22,11 +22,30 @@ h1 {
     text-align: center;
     margin: auto;
     display: flex;
+    font-family: 'Lobster', cursive;
+    color: #6f3576;
+    font-size: 65px;
 }
 
 h2 {
     text-align: center;
     margin: auto;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: #6f3576;
+    font-size: 40px;
+}
+
+h4 {
+    color: #6f3576;
+    font-size: 18px;
+}
+
+i {
+    color: #6f3576;
+    padding-right: 8px;
 }
 
 .header-center {
@@ -40,12 +59,35 @@ h2 {
     background-color: white;
 }
 
+.div-ul {
+    padding-left: 10px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project_wrap {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #6f3576;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .experience {
     padding: 40px;
 }
 
 .education {
     padding: 40px;
+}
+
+.skills {
+    padding-left: 40px;
 }
 
 * {
@@ -82,4 +124,8 @@ h2 {
 .my-photo img {
     height: 600px;
     width: auto;
+}
+
+li {
+    padding: 15px;
 }
