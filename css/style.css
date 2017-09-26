@@ -1,112 +1,85 @@
 body {
-    background-color: dimgrey;
+    background-color: #dddddd;
+    font-family: 'PT Sans', sans-serif;
 }
 
-#container {
-    width: 1000px;
-    margin: auto;
+.headings {
+    background-color: black;
     color: white;
-    font-family: Helvetica, sans-serif;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
-/*HEADER********************************************************************************************************/
-
-.avatar {
-    display: block;
-    height: 300px;
-    margin-top: 60px;
-}
-
-.avatar__image {
-    height: 250px;
-    border: solid greenyellow 6px;
-    border-radius: 7px;
-}
-
-.avatar__username {
-    font-size: 52px;
-    float: right;
-    margin-top: 0;
-    margin-right: 300px;
-}
-
-.avatar__username--profession {
-    font-size: 30px;
-    color: greenyellow;
-    margin-top: -200px;
-}
-
-/*SECTION********************************************************************************************************/
-
-.article {
-    float: left;
-    width: 45%;
-    margin-right: 200px;
-}
-
-.article__headers {
-    color: greenyellow;
-    font-style: italic;
-}
-
-.article__para {
-    font-size: 17px;
-}
-
-.article__para--size {
-    font-size: 18px;
-    font-style: italic;
-    color: black;
-}
-
-/*ASIDE - links and email form************************************************************************************/
-
-.project-links {
-    display: block;
-    float: left;
-    width: 30%;
-}
-
-.project-links__type {
-    list-style-type: square;
-}
-
-.project-links__header {
-    color: greenyellow;
-    font-style: italic;
-    font-size: 24px;
-}
-
-.project-links__email-form {
-    width: 50%;
-    margin-top: 30px;
-    font-size: 14px;
-}
-
-.project-links__label {
-    margin-top: 10px;
-    color: greenyellow;
-    font-style: italic;
-}
-
-.project-links__button {
-    display: inline-block;
-    border-radius: 3px;
-    padding: 7px 19px;
-    border: 1px solid #D5D5D5;
-    background-color: greenyellow;
-}
-
-/*FOOTER********************************************************************************************************/
-
-.footer {
-    display: block;
-    float: left;
-    width: 100%;
+.wrap-headings {
     height: 100px;
-    margin-top: 20px;
-    padding-top: 20px;
-    color: black;
-    border-top: dotted 4px white;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+h1 {
     text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.header-center {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.experience {
+    padding: 40px;
+}
+
+.education {
+    padding: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    /*padding: 15px;*/
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.my-photo {
+    height: 600px;
+}
+
+.my-photo img {
+    height: 600px;
+    width: auto;
 }
