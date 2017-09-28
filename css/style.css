@@ -5,6 +5,8 @@
 body {
     background-color: #dddddd;
     font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .container {
@@ -14,7 +16,7 @@ body {
 }
 
 .div-ul {
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .education {
@@ -23,6 +25,24 @@ body {
 
 .experience {
     padding: 40px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .headings {
@@ -45,6 +65,8 @@ h1 {
 h2 {
     text-align: center;
     margin: auto;
+    font-size: 24px;
+    padding-top: 15px;
 }
 
 h3 {
@@ -63,18 +85,29 @@ h4 {
     margin: 0 auto;
 }
 
-i {
-    color: #6f3576;
-    padding-right: 8px;
+img {
+    width: 100%;
+    height: auto;
 }
 
-img {
-    width: 320px;
-    height: 320px;
+input[type=text] {
+    border: 2px dotted #6f3576;
+    border-radius: 3px;
+
+    -webkit-appearance: none;
+    height: 30px;
+}
+
+input[type=submit] {
+    border: 2px solid #6f3576;
+    border-radius: 2px;
+    height: 40px;
+    width: 100px;
+    margin: 20px;
 }
 
 li {
-    padding: 15px;
+    padding-bottom: 35px;
 }
 
 .my-photo {
@@ -104,18 +137,24 @@ li {
     align-items: center;
 }
 
-.skills {
-    padding-left: 40px;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.skills {
+    padding-left: 40px;
+}
+
+textarea {
+    border: 2px dotted #6f3576;
+    border-radius: 3px;
+    height: 90px;
+}
+
+ul {
+    list-style-type: square;
 }
 
 [class*="col-"] {
