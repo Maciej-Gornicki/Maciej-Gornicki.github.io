@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Comfortaa', cursive;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 25px;
     background-image: url("code-background.png");
     background-attachment: fixed;
@@ -48,16 +48,33 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 32px;
     letter-spacing: 3px;
     color: #6f3576;
     text-align: center;
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 18px;
     color: #6f3576;
     padding-bottom: -15px;
+}
+
+.icons {
+    width: 120px;
+    height: auto;
+    margin: 40px;
+}
+
+.icons img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px gray;
+}
+
+.icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .my-name {
@@ -84,6 +101,13 @@ h4 {
     height: auto;
     margin: 15px;
     padding: 25px;
+}
+
+.skills-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .row::after {
