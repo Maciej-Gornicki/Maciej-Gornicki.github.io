@@ -3,8 +3,9 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 17px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    line-height: 25px;
     background-image: url("code-background.png");
     background-attachment: fixed;
 }
@@ -15,36 +16,48 @@ body {
     min-height: 100vh;
 }
 
+.about-me {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .experience {
     width: 100%;
     height: auto;
     margin: 15px;
+    padding: 25px;
+}
+
+.education {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    padding: 25px;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    letter-spacing: 3px;
+    font-size: 47px;
     line-height: 15px;
     margin-top: 50px;
     color: #6f3576;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 18px;
+    padding-bottom: 5px;
 }
 
 h3 {
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 3px;
     color: #6f3576;
     text-align: center;
 }
 
 h4 {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 17px;
+    color: #6f3576;
+    padding-bottom: -15px;
 }
 
 .my-name {
@@ -66,6 +79,13 @@ h4 {
     width: 100%;
 }
 
+.skills {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    padding: 25px;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -74,21 +94,8 @@ h4 {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 5px;
 }
-
-/*.col-1 {width: 8.33%;}*/
-/*.col-2 {width: 16.66%;}*/
-/*.col-3 {width: 25%;}*/
-/*.col-4 {width: 33.33%;}*/
-/*.col-5 {width: 41.66%;}*/
-/*.col-6 {width: 50%;}*/
-/*.col-7 {width: 58.33%;}*/
-/*.col-8 {width: 66.66%;}*/
-/*.col-9 {width: 75%;}*/
-/*.col-10 {width: 83.33%;}*/
-/*.col-11 {width: 91.66%;}*/
-/*.col-12 {width: 100%;}*/
 
 
 @media only screen and (max-width : 767px) {
