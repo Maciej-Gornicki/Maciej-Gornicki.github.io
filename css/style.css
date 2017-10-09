@@ -16,6 +16,10 @@ body {
     min-height: 100vh;
 }
 
+.contact {
+    color: black;
+}
+
 .about-me {
     text-align: center;
     padding-bottom: 20px;
@@ -33,6 +37,16 @@ body {
     height: auto;
     margin: 15px;
     padding: 25px;
+}
+
+.footer {
+    width: auto;
+    height: 150px;
+    color: #6f3576;
+    font-size: 15px;
+    text-align: center;
+    line-height: normal;
+    padding-top: 10px;
 }
 
 h1 {
@@ -69,6 +83,8 @@ h4 {
 .icons img {
     border-radius: 10px;
     box-shadow: 3px 3px 20px gray;
+    display: flex;
+    align-content: center;
 }
 
 .icons p {
