@@ -23,6 +23,7 @@ body {
 .about-me {
     text-align: center;
     padding-bottom: 10px;
+    line-height: 50px;
 }
 
 .about-me p {
@@ -42,6 +43,10 @@ body {
     height: auto;
     margin: 15px;
     padding: 25px;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
 }
 
 .footer {
